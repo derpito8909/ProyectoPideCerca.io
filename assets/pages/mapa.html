@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mapa.css">
+    <title>PideCerca</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+        <a class="navbar-brand" href="#"><img class="w-50" src="./assets/images/logo.png" alt="logo-pide-cerca"></a>
+        <button class="navbar-toggler close" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation close">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto "></ul>
+            <li class="navbar-item mx-3 border rounded border-success ">
+                <a class="nav-link font-text" href="#">Tiendas</a>
+            </li>
+            <li class="nav-item mx-3 border rounded border-success">
+                <a class="nav-link font-text" href="#">Productos</a>
+            </li>
+            <li class="nav-item mx-3 border rounded border-success">
+                <a class="nav-link font-text" href="#">Inicio sesión</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+   
+
+<main class="contenido">
+    <div id="map"></div>
+</main>
+   
+<footer class="bg-blue d-main-footer font-text ">
+  <div class="container mt-auto py-3">
+      <div class="row justify-content-center mb-2">
+          <div class="col-auto"><a class="font-text" href="contactenos.html">Contáctenos</a></div>
+          <div class="col-auto"><a class="font-text" href="nosotros.html">Sobre nosotros</a></div>
+      </div>
+      <hr>
+      <div class="row justify-content-center  mb-2">
+
+          <div class="col-auto"><a href="#" class="text-light "><i class="fab fa-youtube-square fa-2x rounded-circle"></i></a>
+          </div>
+          <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </div>
+          <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-instagram-square fa-2x"></i></a>
+          </div>
+      </div>
+      <div class="row justify-content-center mb2">
+          <div class="col-auto"><span class="">© 2020 Todos los derechos reservados.</span>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+<script src="../js/mapa.js"></script>
+
+</html>
