@@ -4,24 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--permite utilizar los iconos de Font Awesome-->
+    <script src="./assets/js/all.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <title>Pide cerca</title>
 </head>
 
 <body>
     <header>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-blue">
+            <a class="navbar-brand" href="#"><img class="w-50" src="./assets/images/logo.png" alt="logo-pide-cerca"></a>
+            <button class="navbar-toggler close" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation close">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto "></ul>
+                <li class="navbar-item mx-3 border rounded border-success ">
+                    <a class="nav-link font-text" href="#">Tiendas</a>
+                </li>
+                <li class="nav-item mx-3 border rounded border-success">
+                    <a class="nav-link font-text" href="#">Productos</a>
+                </li>
+                <li class="nav-item mx-3 border rounded border-success">
+                    <a class="nav-link font-text" href="#">Inicio sesión</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    <main>
+    <main class="vh-100">
 
     </main>
-    <footer>
+    <footer class="bg-blue d-main-footer font-text ">
+        <div class="container mt-auto py-3">
+            <div class="row justify-content-center mb-2">
+                <div class="col-auto"><a class="font-text" href="contactenos.html">Contáctenos</a></div>
+                <div class="col-auto"><a class="font-text" href="nosotros.html">Sobre nosotros</a></div>
+            </div>
+            <hr>
+            <div class="row justify-content-center  mb-2">
 
+                <div class="col-auto"><a href="#" class="text-light "><i class="fab fa-youtube-square fa-2x rounded-circle"></i></a>
+                </div>
+                <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-twitter-square fa-2x"></i></a>
+                </div>
+                <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-instagram-square fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="row justify-content-center mb2">
+                <div class="col-auto"><span class="">© 2020 Todos los derechos reservados.</span>
+                </div>
+            </div>
+        </div>
     </footer>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <script src="./assets/js/popper.min.js"></script>
 </body>
 
 </html>
