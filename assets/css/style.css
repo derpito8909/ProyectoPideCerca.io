@@ -1,0 +1,29 @@
+    :root {
+       --principal: #031D44;
+       --secundario: #FFD51F;
+       --sucundario1: #B8C33B;
+       --texto: Montserrat;
+   }
+   
+   @font-face {
+       font-family: 'Montserrat', sans-serif;
+       src: url(../fuentes/Montserrat-Regular.ttf);
+   }
+   
+   .bg-blue {
+       background-color: var(--principal);
+   }
+   
+   .bg-yellow {
+       background-color: var(--secundario);
+   }
+   
+   .bg-green {
+       background-color: var(--sucundario1);
+   }
+   
+   .font-text {
+       font-family: var(--texto);
+       font-size: 16px;
+       color: white !important;
+   }
