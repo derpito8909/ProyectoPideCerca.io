@@ -1,53 +1,62 @@
-   :root {
-      --principal: #031D44;
-      --secundario: #FFD51F;
-      --secundario1: #B8C33B;
-      --texto: Montserrat;
-  }
-  
-  @font-face {
-      font-family: 'Montserrat', sans-serif;
-      src: url(../fuentes/Montserrat-Regular.ttf);
-  }
-  
-  .bg-blue {
-      background-color: var(--principal);
-  }
-  
-  .bg-yellow {
-      background-color: var(--secundario);
-  }
-  
-  .bg-green {
-      background-color: var(--secundario1);
-  }
-  
-  .font-text {
-      font-family: var(--texto);
-  }
-  
-  .color-text {
-      color: white !important;
-  }
-  
-  .color-green {
-      color: var(--secundario1);
-  }
-  
-  .color-blue {
-      color: var(--principal)
-  }
-  
-  .boton {
-      padding: 1em 1.8125em;
-      text-align: center;
-      font-weight: 700;
-      font-size: 1em;
-      cursor: pointer;
-      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-      background-color: var(--secundario1);
-      color: var(--principal);
-      border-width: 1px;
-      border-style: solid;
-      border-color: transparent;
-  }
+                   :root {
+                      --principal: #031D44;
+                      --secundario: #FFD51F;
+                      --secundario1: #B8C33B;
+                      --texto: Montserrat;
+                  }
+                  
+                  @font-face {
+                      font-family: 'Montserrat', sans-serif;
+                      src: url(../fuentes/Montserrat-Regular.ttf);
+                  }
+                  
+                  .navbar-item:hover {
+                      transform: scale(1.5);
+                  }
+                  
+                  .bg-blue {
+                      background-color: var(--principal);
+                  }
+                  
+                  .bg-yellow {
+                      background-color: var(--secundario);
+                  }
+                  
+                  .bg-green {
+                      background-color: var(--secundario1);
+                  }
+                  
+                  .font-text {
+                      font-family: var(--texto);
+                  }
+                  
+                  .color-text {
+                      color: white !important;
+                  }
+                  
+                  .color-green {
+                      color: var(--secundario1);
+                  }
+                  
+                  .color-blue {
+                      color: var(--principal)
+                  }
+                  
+                  .boton {
+                      padding: 1em 1.8125em;
+                      text-align: center;
+                      font-weight: 700;
+                      font-size: 1em;
+                      cursor: pointer;
+                      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+                      background-color: var(--secundario1);
+                      color: var(--principal);
+                      border-width: 1px;
+                      border-style: solid;
+                      border-color: transparent;
+                      border-radius: 5%;
+                  }
+                  
+                  .boton:hover {
+                      transform: scale(1.2);
+                  }
