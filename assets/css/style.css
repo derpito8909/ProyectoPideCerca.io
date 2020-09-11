@@ -62,3 +62,22 @@
     font-size: 16px;
     color: white !important;
 }
+
+
+.colorfondo-bar {
+    background-color: #ffd51f;
+}
+
+.btn-colormenu {
+    background-color: #d29e36;
+    color: #fff;
+}
+
+.titles {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+.main-color {
+    background-color: #e1e4e7;
+}
