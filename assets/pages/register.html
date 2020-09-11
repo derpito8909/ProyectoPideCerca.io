@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -17,7 +17,6 @@
 
 <body>
 
-
     <nav class="navbar nav navbar-expand-lg  bg-blue sticky-top">
         <a class="navbar-brand" href="#"><img class="w-50" src="../images/logo.png" alt="logo-pide-cerca"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -26,7 +25,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item mx-3 border rounded border-success">
+                <li class="navbar-item mx-3 border rounded border-success ">
                     <a class="nav-link font-text" href="#">Inicio</a>
                 </li>
                 <li class="navbar-item mx-3 border rounded border-success ">
@@ -38,33 +37,65 @@
             </ul>
         </div>
     </nav>
-
     <main class="vh-100">
         <div class="container" style="margin-top: 100px;">
             <div class="row">
-                <div class="col-md-6 mx-auto align-items-center">
-                    <div class="myform form bg-cont">
+                <div class="col-md-6 mx-auto">
+                    <div class="myform form">
                         <div class="title py-3">
-                            <h1>Iniciar sesión</h1>
+                            <h1>Registrate</h1>
                         </div>
+                        <hr class="hr-or">
                         <form action="#" class="title2">
-                            <div class="form-group">
-                                <label for="correo">Correo electrónico</label>
-                                <input type="email" class="form-control bord" id="correo" name="correo"
-                                    placeholder="Ingrese su correo" required>
+                            <div class="form-row">
+                                <div class="form-group col-sm-6">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control bord" id="nombre" name="nombre"
+                                        placeholder="Nombre" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" class="form-control bord" id="apellido" name="apellido"
+                                        placeholder="Apellido" required>
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label for="direccion"> Dirección</label>
+                                    <input type="text" class="form-control bord" id="direccion" name="direccion"
+                                        placeholder=" Dirección">
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label for="tel">Teléfono</label>
+                                    <input type="number" class="form-control bord" id="tel" name="tel"
+                                        placeholder="Teléfono">
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="contr">Contraseña</label>
-                                <input type="password" class="form-control bord" id="contr" name="contr"
-                                    placeholder="Ingrese su contraseña" required>
+
+                            <div class="form-group col-md-6" style="padding-left: 0;">
+                                <label for="byear">Ingrese su Año de Nacimiento</label>
+                                <input class="form-control bord" type="date" id="byear" name="byear">
                             </div>
-                            <div class="form-group py-3">
-                                <p class="text-center">
-                                    Al iniciar sesion aceptas los <a href="#">Términos y
-                                        condiciones</a></p>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-block btn-primary">Iniciar sesión</button>
+                            <div class="form-row">
+                                <div class="form-group col-sm-6">
+                                    <label for="correo">Correo electrónico</label>
+                                    <input type="email" class="form-control bord" id="correo" name="correo"
+                                        placeholder="Ingrese su correo" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label for="confCorreo">Confirme su correo</label>
+                                    <input type="email" class="form-control bord" id="confCorreo" name="confCorreo"
+                                        placeholder="Ingrese su correo" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label for="contr">Contraseña</label>
+                                    <input type="password" class="form-control bord" id="contr" name="contr"
+                                        placeholder="Ingrese su contraseña" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label for="confContr">Confirme su contraseña</label>
+                                    <input type="password" class="form-control bord" id="confContr" name="confContr"
+                                        placeholder="Ingrese su contrasena" required>
+                                </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="login-or">
@@ -72,16 +103,9 @@
                                     <span class="span-or">o</span>
                                 </div>
                             </div>
-                            <div class="col-md-12 py-3">
-                                <p>
-                                    <a href="#" class="google btn"><i class="fa fa-google-plus">
-                                        </i> Iniciar sesión con Google
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="form-group text-center">
-                                <p>No tienes una cuenta?
-                                    <a href="./register.html" id="signup"> Registrate</a>
+                            <div class="form-group">
+                                <p style="text-align: center;">
+                                    <a href="./login.html" id="signup">Ya tienes una cuenta?</a>
                                 </p>
                             </div>
                         </form>
@@ -113,6 +137,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
