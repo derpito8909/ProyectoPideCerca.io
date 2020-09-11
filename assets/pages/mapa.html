@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--permite utilizar los iconos de Font Awesome-->
+        <script src="../js/all.min.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/mapa.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+        <title>Pide cerca</title>
+    </head>
+
+    <body>
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-blue ">
+                <a class="navbar-brand" href="#"><img class="w-50" src="../images/logo.png" alt="logo-pide-cerca"></a>
+                <button class="navbar-toggler close" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation close">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class=" navbar-nav ml-auto list-unstyled">
+                        <li class="navbar-item mx-3 border rounded border-success text-center ">
+                            <a class="nav-link font-text color-text " href="#">Tiendas</a>
+                        </li>
+                        <li class="navbar-item mx-3 border rounded border-success text-center">
+                            <a class="nav-link font-text color-text" href="#">Productos</a>
+                        </li>
+                        <li class="navbar-item mx-3 border rounded border-success text-center">
+                            <a class="nav-link font-text color-text" href="#">Inicio sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="contenido">
+            <h3>Tus tiendas mas cercanas</h3>
+            <div class="menu-mitad container">
+                <input type="button" value="Categorias"
+                    class="boton-productos border rounded border-success bg-blue text-light">
+
+
+            </div>
+
+        </main>
+        <div id="map" class="container">
+
+        </div>
+
+        <footer class="bg-blue d-main-footer font-text color-text mt-3 ">
+            <div class="container mt-auto py-3">
+                <div class="row justify-content-center mb-2">
+                    <div class="col-auto"><a class="font-text color-text" href="contactenos.html">Contáctenos</a></div>
+                    <div class="col-auto"><a class="font-text color-text" href="nosotros.html">Sobre nosotros</a></div>
+                </div>
+                <hr>
+                <div class="row justify-content-center  mb-2">
+
+                    <div class="col-auto"><a href="#" class="text-light "><i
+                                class="fab fa-youtube-square fa-2x rounded-circle"></i></a>
+                    </div>
+                    <div class="col-auto"><a href="#" class="text-light"><i class="fab fa-twitter-square fa-2x"></i></a>
+                    </div>
+                    <div class="col-auto"><a href="#" class="text-light"><i
+                                class="fab fa-instagram-square fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb2">
+                    <div class="col-auto"><span class="">© 2020 Todos los derechos reservados.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../js/jquery-3.5.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+        <script src="../js/mapa.js"></script>
+    </body>
+
+</html>
