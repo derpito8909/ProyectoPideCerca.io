@@ -81,3 +81,13 @@
 .main-color {
     background-color: #e1e4e7;
 }
+
+.title {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+.title2 {
+    font-family: 'Montserrat',
+        sans-serif;
+}
