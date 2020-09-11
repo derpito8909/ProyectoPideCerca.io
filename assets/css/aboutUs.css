@@ -32,3 +32,11 @@
     max-width: 300px;
     margin: auto;
 }
+
+.social {
+    /* Estilos de posicionamiento*/
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 50%;
+}
