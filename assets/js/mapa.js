@@ -25,8 +25,8 @@ function showPosition(position) {
     let market3 = L.marker([4.718080, -74.090872]).addTo(mapaTiendas);
     let market4 = L.marker([4.718154, -74.091177]).addTo(mapaTiendas);
 
-    market1.bindPopup("Asadero brasas del rincon").openPopup();
-    market2.bindPopup("El Carbonazo").openPopup();
-    market3.bindPopup("Delirious Burger").openPopup();
-    market4.bindPopup("Ta colombia comida rapida").openPopup();
+    market1.bindPopup("<a href=../pages/product.html>Asadero brasas del rincon</a> <br>").openPopup();
+    market2.bindPopup("<a href=../pages/product.html>El Carbonazo</a> <br>").openPopup();
+    market3.bindPopup("<a href=../pages/product.html>Delirious Burger</a> <br>").openPopup();
+    market4.bindPopup("<a href=../pages/product.html>Ta colombia comida rapida</a> <br>").openPopup();
 }
