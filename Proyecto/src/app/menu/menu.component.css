@@ -1,0 +1,9 @@
+a{
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar-item:hover {
+  transform: scale(1.2);
+}
